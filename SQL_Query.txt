@@ -1,0 +1,2 @@
+SELECT Count(DISTINCT Employee.dept_id) as Unique_Dept, Project.project_name from Project inner join Employee on 
+Employee.project_id = Project.Project_id;
